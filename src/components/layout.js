@@ -51,9 +51,9 @@ const TemplateWrapper = ({ children }) => {
           />
           <div className="container__sidebar">
             <div className="sidebar">
-              <h6 className="sidebar__title">
-                <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
-              </h6>
+              <h1 className="sidebar__title">
+                <Link to="/">Hello</Link>
+              </h1>
               <div
                 className="sidebar__intro"
                 dangerouslySetInnerHTML={{
@@ -98,7 +98,7 @@ const TemplateWrapper = ({ children }) => {
                   />
                 </div>
                 <div className="mobile-header__logo">
-                  <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+                  <Link to="/">Hello</Link>
                 </div>
               </div>
             </div>
